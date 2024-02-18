@@ -1,0 +1,21 @@
+.player {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px 2px rgb(28, 39, 76);
+  background-color: rgb(255, 253, 253);
+  background-image: url('../../assets/images/background/background-player.png');
+  background-repeat: no-repeat;
+  background-position: 35% 100%;
+  background-size: contain;
+
+  .container {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    max-width: 342px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.buttons__control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+
+  &.item {
+    margin-bottom: 12px;
+    cursor: pointer;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &.play,
+  &.item:hover {
+    > g > path:nth-child(3) {
+      fill: black;
+    }
+  }
+
+  &.revert {
+    transform: rotate(180deg);
+  }
+}

@@ -1,0 +1,17 @@
+@import 'keyFrames';
+@import 'clear';
+
+body {
+  background: #e3e3e3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: center / contain no-repeat url('../assets/images/background/background-preview.png');
+}

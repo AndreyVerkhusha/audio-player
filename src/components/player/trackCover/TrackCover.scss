@@ -1,0 +1,12 @@
+.track__cover {
+  position: relative;
+
+  .preview {
+    top: -12%;
+    left: 0;
+    position: absolute;
+    border-radius: 50%;
+    animation: rotation 13s infinite linear;
+    transition: all 0.3s linear;
+  }
+}
